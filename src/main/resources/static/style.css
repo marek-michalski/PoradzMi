@@ -1,0 +1,47 @@
+body {
+	background: lightblue;
+}
+
+#wrap {
+	width: 1000px;
+	margin: 0 auto; }
+
+.header {
+	width: 1000px; height: 75px; float: left;
+	background: lightgrey;
+}
+
+.menu {
+	width: 200px; height: 600px; float: left;
+	background: lightgreen;
+	text-transform: uppercase;
+}
+
+.content { 
+	width: 800px; height: 600px; float: left;
+}
+
+.title {
+	width: 800px; height: 50px; float: left;
+	background: orange; 
+}
+
+.post {
+	width: 800px; height: 550px; float: left;
+	background: yellow; 
+}
+
+.footer {
+	width: 1000px; height: 50px; float: left;
+	background: grey;
+}
+
+/*kolor linków*/
+
+a:link, a:active, a:visited {
+	color: green;
+	text-decoration: none; }
+
+a:hover {
+	color: red;
+	text-decoration: none; }
