@@ -11,7 +11,7 @@
     <groupId>pl.sda</groupId>
     <artifactId>poradzmi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>poradzmi</name>
+    <firstname>poradzmi</firstname>
     <description>Serwis z poradami</description>
 
     <properties>

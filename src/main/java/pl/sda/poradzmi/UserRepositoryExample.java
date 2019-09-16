@@ -14,6 +14,6 @@ public class UserRepositoryExample {
 
     @PostConstruct
     public void example() {
-        userRepository.save(new User("Marek","Michalski","admin","admin"));
+        userRepository.save(new User("mmichalski","mmichalski","Marek","Michalski","marek.michalski@me.com"));
     }
 }
