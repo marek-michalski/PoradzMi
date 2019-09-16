@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="Poradź mi!"/>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title>Poradź mi!</title>
+    <title>Rejestracja</title>
 </head>
 <body>
 <div id="wrap">
@@ -44,7 +44,7 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="registration.html">
-                <input type="submit" value="Utwórz Konto" id="Utwórz Konto">
+                    <input type="submit" value="Utwórz Konto" id="Utwórz Konto">
                 </a>
                 <input type="submit" value="Zaloguj" id="Zaloguj">
             </h3>
@@ -53,21 +53,16 @@
 
         <div class="post">
 
-            <ol>
-                <h3>Pytania:</h3>
-                <li>
-                    <p>Pytanie pierwsze</p>
-                </li>
-                <li>
-                    <p>Pytanie drugie</p>
-                </li>
-                <li>
-                    <p>Pytanie trzecie</p>
-                </li>
-                <li>
-                    <p>Pytanie kolejne...</p>
-                </li>
-            </ol>
+            <h3>&nbsp;Zarejestruj się, aby dodawać nowe pytania oraz odpowiadać na istniejące:</h3>
+            <ul>
+                <li><label for="username">Login:</label><input id="username" type="text" name="username"/></li>
+                <li><label for="password">Hasło:</label><input id="password" type="password" name="password"/></li>
+                <li><label for="firstname">Imię:</label><input id="firstname" type="text" name="firstname"/></li>
+                <li><label for="lastname">Nazwisko:</label><input id="lastname" type="text" name="lastname"/></li>
+                <li><label for="email">E-mail:</label><input id="email" type="text" name="email"/></li>
+                <label for="register"></label><input id="register" type="submit" value="Zarejestruj" name="register"/>
+            </ul>
+
         </div>
 
     </div>
